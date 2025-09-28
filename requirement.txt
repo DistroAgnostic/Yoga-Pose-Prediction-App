@@ -1,4 +1,5 @@
-streamlit>=1.25
-tensorflow>=2.11
+streamlit=1.25
+tensorflow=2.15
 Pillow
 numpy
+
