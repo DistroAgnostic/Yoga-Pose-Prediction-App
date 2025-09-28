@@ -1,24 +1,7 @@
 import streamlit as st
-
-try:
-    import tensorflow as tf
-    st.write("✅ TensorFlow version:", tf.__version__)
-except ImportError:
-    st.error("❌ TensorFlow not installed")
-
-# Check NumPy
-try:
-    import numpy as np
-    st.write("✅ NumPy version:", np.__version__)
-except ImportError:
-    st.error("❌ NumPy not installed")
-
-# Check Pillow
-try:
-    from PIL import Image
-    st.write("✅ Pillow installed")
-except ImportError:
-    st.error("❌ Pillow not installed")
+import tensorflow as tf
+import numpy as np
+from PIL import Image
 
 model = tf.keras.models.load_model('yoga_model.h5')
 
@@ -48,6 +31,7 @@ if uploaded_file is not None:
     pose, confidence = predict_pose(image)
     st.success(f"**Predicted Pose:** {pose}")
     st.info(f"**Confidence:** {confidence:.2f}")
+
 
 
 
