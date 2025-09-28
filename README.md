@@ -20,7 +20,8 @@ Welcome to the **Yoga Pose Prediction App**—an interactive Streamlit web tool 
 
 ## 🖥️ Preview
 
-![App Screenshot]()*
+![App Screenshot](<img width="1409" height="615" alt="image" src="https://github.com/user-attachments/assets/defb24a9-3331-413c-b085-62712a7c32de" />
+)*
 
 ***
 
@@ -86,7 +87,7 @@ Pull requests are welcome! Please open issues for feature requests, bugs, or sug
 
 ## 📚 Credits
 
-Created by [Your Name](https://github.com/distroagnostic)  
+Created by [DistroAgnostic](https://github.com/distroagnostic)  
 Model trained and app built using TensorFlow, Streamlit & PIL.
 
 ***
