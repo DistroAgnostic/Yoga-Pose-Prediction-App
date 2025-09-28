@@ -1,5 +1,9 @@
 import streamlit as st
-import tensorflow as tf
+try:
+    import tensorflow as tf
+except ImportError:
+    st.error("TensorFlow failed to install.")
+    st.stop()
 import numpy as np
 from PIL import Image
 
@@ -31,6 +35,7 @@ if uploaded_file is not None:
     pose, confidence = predict_pose(image)
     st.success(f"**Predicted Pose:** {pose}")
     st.info(f"**Confidence:** {confidence:.2f}")
+
 
 
 
