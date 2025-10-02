@@ -20,8 +20,8 @@ Welcome to the **Yoga Pose Prediction App**—an interactive Streamlit web tool 
 
 ## 🖥️ Preview
 
-![App Screenshot](<img width="1409" height="615" alt="image" src="https://github.com/user-attachments/assets/defb24a9-3331-413c-b085-62712a7c32de" />
-)*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/03168804-e8c8-4d29-b1b3-afdeb8819ed2" />
+
 
 ***
 
